@@ -1,0 +1,9 @@
+{
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf ./out && mkdir -p ./out && yarn install --production --pure-lockfile --modules-folder ./out/node_modules "
+  },
+  "dependencies": {
+    "leftpad": "^0.0.1"
+  }
+}
